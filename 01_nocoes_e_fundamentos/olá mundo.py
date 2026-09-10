@@ -1,2 +1,6 @@
-print("sophia sousa silva")
-print("ola mundo")
+nome = ("sophia")
+idade = ("16")
+ano = ("2010")
+mês = ("maio")
+dia = ("3")
+print (f"oi, meu nome é {nome}, tenho {idade} anos, nasci no dia {dia} de {mês} de {ano}")
