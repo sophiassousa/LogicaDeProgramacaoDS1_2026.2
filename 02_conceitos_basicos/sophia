@@ -1,0 +1,11 @@
+# TODO: Declare as variáveis abaixo e execute a célula para testar
+nome_produto = "blush solble"
+quantidade_estoque = 300
+preco_unitario = 189.90
+disponivel_para_venda = True
+
+# TODO: Escreva os prints de inspeção aqui
+print("produto:", type(nome_produto))
+print("estoque:", type(quantidade_estoque))
+print("valor", type(preco_unitario))
+print("disponivel", type(disponivel_para_venda))
