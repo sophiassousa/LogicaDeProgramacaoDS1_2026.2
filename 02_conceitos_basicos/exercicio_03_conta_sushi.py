@@ -10,3 +10,8 @@ Crie um programa que:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+valor=float(input("digite o valor da conta"))
+taxa=valor*0.10
+nome=str(input("digite o nome da cliente"))
+conta=valor+ taxa
+print(f"o valor final da conta de {nome} foi de R${conta}") 
