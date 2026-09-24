@@ -1,0 +1,17 @@
+print("BIBLIOTECA ESCOLAR")
+print("opção1-consultar livro")
+print("opção2-realizar empréstimo")
+print("opção3-devolver livro")
+
+opção=int(input("digite a opção desejada:"))
+
+match opção:
+    case 1:
+        print("qual livro deseja consultar:")
+    case 2:
+        print("realize um empréstimo")
+    case 3:
+        print("qual livro deseja devolver:")
+        print("digite suas informações de login da biblioteca:") 
+    case _:
+        print("opção não encontrada")      

@@ -13,3 +13,16 @@ Imprima "Isento" ou o valor total do imposto formatado com 2 casas decimais.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+salario=float(input("digite seu salario"))
+if salario <= 200.0:
+    print("inseto")
+elif 2000.01<salario<=3000.00:
+    salario_1=(salario)*0.08 
+    print(f"{salario_1:.2f}")
+elif 300.01<salario<=4500.00:
+    salario_2=(salario*0.18)+(salario*0.08)
+    print(f"{salario_2:.2f}")
+elif salario>4500.0:
+    salario_3=(salario*0.08)+(salario*0.18)+(salario*0.28)   
+    print("f{salario:.2f}")      
+
