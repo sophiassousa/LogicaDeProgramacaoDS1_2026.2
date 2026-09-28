@@ -9,3 +9,16 @@ Leia 3 valores de ponto flutuante (A, B e C) de uma equação do 2º grau.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+A=float(input("digite o valor de A:"))
+B=float(input("digite o valo de B:"))
+C=float(input("digite o valor de C:"))
+
+delta=(B**2)-(4*A*C)
+
+if delta < 0 or A == 0:
+    print("imposivel calcular")
+else:
+    x1=(-B+delta**0.5)/(2*A)   
+    x2=(-B+delta**0.5)/(2*A)
+print(f"{x1:.5f}")
+print(f"{x2:.5f}")     
