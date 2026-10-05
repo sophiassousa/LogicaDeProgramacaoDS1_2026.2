@@ -14,7 +14,8 @@ i= int(input("digite o nivel de empolgação"))
 contador_i=-1
 for n in range(i):
     contador_i+=1
-a=1+ contador_1
-a="a"*aprint(f"feliz nat{a}l")
+a=1+ contador_i
+a="a"*a
+print(f"feliz nat{a}l")
 
 
