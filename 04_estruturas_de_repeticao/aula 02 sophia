@@ -2,11 +2,7 @@
 soma=0
 while True:
     numero=int(input("digite um número:"))
-   
-    soma+=numero:
-    if numero ==0  
+    if numero==0:
         break
-    print
-
-   
-    print("a soma é:",soma) 
+soma+=numero
+print("o valor é:",soma)
