@@ -7,4 +7,16 @@ Crie uma função nomeada `calcular_pontuacao_total(fase1, fase2, fase3)` com a 
 que receba as 3 notas como parâmetros e retorne a pontuação total da equipe.
 """
 
-# TODO: Desenvolva a função e os testes abaixo:
+# TODO: Desenvolva a função e os testes abaixo:           
+def calcular_pontuacao_total(fase_1,fase_2,fase_3):
+    resultado=fase_1+fase_2+fase_3
+    return resultado
+
+
+fase_1=float(input("digite a pontuação da fase 1:"))
+fase_2=float(input("digite a pontuação da fase 2:"))
+fase_3=float(input("digite a pontuação da fase 3:"))
+
+resultado=calcular_pontuacao_total(fase_1,fase_2,fase_3)
+print(resultado)
+
