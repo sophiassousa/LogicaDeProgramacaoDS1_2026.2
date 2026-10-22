@@ -13,9 +13,9 @@ def calcular_pontuacao_total(fase_1,fase_2,fase_3):
     return resultado
 
 
-fase_1=float(input("digite a pontuação da fase 1:"))
-fase_2=float(input("digite a pontuação da fase 2:"))
-fase_3=float(input("digite a pontuação da fase 3:"))
+fase_1=int(input("digite a pontuação da fase 1:"))
+fase_2=int(input("digite a pontuação da fase 2:"))
+fase_3=int(input("digite a pontuação da fase 3:"))
 
 resultado=calcular_pontuacao_total(fase_1,fase_2,fase_3)
 print(resultado)
