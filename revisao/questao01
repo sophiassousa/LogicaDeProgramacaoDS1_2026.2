@@ -1,0 +1,18 @@
+
+distancia=float(input("digite a distancia percorrida:"))
+tipo_cliente=str(input("digite o plano do cliente:"))
+
+
+
+
+def calcular_frete(distancia,tipo_cliente):
+    frete=distancia*0.5
+    if distancia> 100:
+        frete=frete+15.00
+    if tipo_cliente.upper() == "VIP":
+        frete=frete-(frete*0.80)
+        
+    return frete
+valor_final=calcular_frete(distancia,tipo_cliente)
+print(f"valor final do frete:R${valor_final}") 
+

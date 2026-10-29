@@ -29,11 +29,11 @@ dias=int(input("quantidade de dias:"))
 diaria=float(input("gasto diario com alimentação por pessoa:"))
 
 
-custo_transporte=custo_transporte(distancia,consumo,preco)
-custo_alimentacao=custo_alimentacao(pessoas,dias,diaria)
+custo_transporte=calcular_custo_transporte(distancia,consumo,preco)
+custo_alimentacao=calcular_custo_alimentacao(pessoas,dias,diaria)
 
 custo_total= custo_transporte + custo_alimentacao
 
-print(f"cuto do transporte:R${custo_transporte:.2f}")
+print(f"custo do transporte:R${custo_transporte:.2f}")
 print(f"custo da alimentação:R${cuto_alimentaao:.2f}")
 print(f"custo total a viagem:R${custo_total:.2f}")
