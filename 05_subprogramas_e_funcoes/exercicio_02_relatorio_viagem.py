@@ -11,6 +11,15 @@ No programa principal, leia os dados, execute as funções e mostre o custo tota
 """
 
 # TODO: Desenvolva as funções e o programa principal abaixo:
+distancia=float(input("distancia da viagem em km:"))
+consumo=float(input("consumo do carro em km/l:"))
+preco=float(input("preço do combustivel por litro:")) 
+
+pessoas=int(input("quantidade de pessoas:"))
+dias=int(input("quantidade de dias:"))
+diaria=float(input("gasto diario com alimentação por pessoa:"))
+
+
 def calcular_custo_transporte(distancia_km,consumo_kml,preco_combustivel):
     litros=distancia_km/consumo_kml
     custo=litros*preco_combustivel
@@ -20,14 +29,6 @@ def calcular_custo_transporte(distancia_km,consumo_kml,preco_combustivel):
         custo=qtd_pessoas*dias*diaria_alimentaçao
         return custo
         
-distancia=float(input("distancia da viagem em km:"))
-consumo=float(input("consumo do carro em km/l:"))
-preco=float(input("preço do combustivel por litro:")) 
-
-pessoas=int(input("quantidade de pessoas:"))
-dias=int(input("quantidade de dias:"))
-diaria=float(input("gasto diario com alimentação por pessoa:"))
-
 
 custo_transporte=calcular_custo_transporte(distancia,consumo,preco)
 custo_alimentacao=calcular_custo_alimentacao(pessoas,dias,diaria)
