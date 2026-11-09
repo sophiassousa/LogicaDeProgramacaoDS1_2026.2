@@ -1,0 +1,13 @@
+# TODO: Crie a matriz 2x2 e calcule a soma
+matriz = [
+[4, 9]
+]
+soma=0
+
+print("o valor da soma é:")
+
+for linha in matriz:
+    for numero in linha:
+        soma+=numero
+print("soma de todos elementos:",soma)
+

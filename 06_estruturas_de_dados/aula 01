@@ -1,0 +1,9 @@
+# TODO: Implemente o carrinho de compras
+compras = []
+
+# Adicione 3 produtos e ordene a lista
+compras.append(input("digite produto desejado:"))
+compras.append(input("digite o produto dsejado:"))
+compras.append(input("digite o produto desejado:"))
+compras.sort()
+print(f"sua lista de comppras final é:{compras}")
