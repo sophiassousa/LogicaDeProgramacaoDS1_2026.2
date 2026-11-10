@@ -1,10 +1,11 @@
-# TODO: Crie o dicionário do veículo e percorra com for
 
-# Escreva o laço for com .items()
+
+
 
 veiculo={
-    "modelo" : "touro"
-    "marca" : "toyota"
-    "ano" : "2026"
-}
-for chave,valor in veiculo.items():
+        "modelo" : "touro",
+        "marca"  : "fiat",
+        "ano" : "2026"
+    }
+for chave,valor in veiculo.items ():
+     print(f"{chave}:{valor}")

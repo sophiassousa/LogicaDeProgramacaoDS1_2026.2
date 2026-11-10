@@ -9,3 +9,8 @@ exibindo uma mensagem explicativa sobre imutabilidade.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+cidade=("tianguá", "são benedito")
+try:
+    cidade[1]="ubajara"
+except TypeError:
+    print("erro:não é posível alterações")

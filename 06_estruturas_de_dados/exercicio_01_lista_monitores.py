@@ -10,3 +10,8 @@ ENUNCIADO:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+monitor=["Ryan Mesquita Damasceno"]
+monitor.append("Savio Cunha")
+monitor.append("felipe Araujo")
+monitor[0]="sophia sousa silva"
+print(monitor)
