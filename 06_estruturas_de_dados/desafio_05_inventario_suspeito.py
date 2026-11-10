@@ -12,3 +12,21 @@ SUA MISSÃO:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+lista_mercado= ("maçã","banana","acerola","abacaxi","acerola","maçã")
+lista_unica=set(lista_mercado)
+print(f"lista:{lista_unica}")
+
+inventario={
+    "maçã" : 30,
+    "abacaxi":40,
+    "acerola":50,
+    "banana":20
+}
+
+fruta_cliente=input("digite a fruta que deseja consultar no estoque:")
+
+resposta=inventario.get(fruta_cliente,"fruta não encontrada no estoque")
+
+print(f"reultado:{resposta}")
+
+
